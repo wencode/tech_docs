@@ -1,6 +1,10 @@
 # tech_docs
-Some technical documents, including original documents, translated documents, and referenced articles.
+Some technical documents, including original documents, translated documents, and referenced articles.  
+
 一些技术文章, 包含原创, 翻译或转发.
 
 ## Rust
 * [翻译: 异步Rust的发展](rust/why_async_rust.md)
+
+## 嵌入式编程
+* [翻译: 用ESP32和WS2812打造一个恐龙灯](embed/esp32-ws2812-dino-light.md)

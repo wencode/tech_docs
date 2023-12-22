@@ -8,3 +8,5 @@ Some technical documents, including original documents, translated documents, an
 
 ## 嵌入式编程
 * [翻译: 用ESP32和WS2812打造一个恐龙灯](embed/esp32-ws2812-dino-light.md)
+## 翻译: ESP32 Embedded Rust at the HAL系列
+* [1. ESP32 Embedded Rust at the HAL：利用GPIO按钮控制LED闪烁](embed/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking.md)

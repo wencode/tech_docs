@@ -3,6 +3,9 @@ Some technical documents, including original documents, translated documents, an
 
 一些技术文章, 包含原创, 翻译或转发.
 
+## Go
+* [翻译: 使用Slog进行Go语言日志记录：最终指导手册](go/Logging-in-Go-with%20Slog.md)
+
 ## Rust
 * [翻译: 异步Rust的发展](rust/why_async_rust.md)
 
@@ -11,3 +14,4 @@ Some technical documents, including original documents, translated documents, an
 ## 翻译: ESP32 Embedded Rust at the HAL系列
 * [1. ESP32 Embedded Rust at the HAL：利用GPIO按钮控制LED闪烁](embed/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking.md)
 * [2.ESP32 Embedded Rust at the HAL：通过定时器检测实现按钮控制闪烁功能](embed/esp32-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling.md)
+* [3.# ESP32 Embedded Rust at the HAL：UART串行通信](embed/esp32-embedded-rust-at-the-hal-uart-serial-communication.md)

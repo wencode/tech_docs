@@ -111,7 +111,7 @@ use riscv_rt::entry;
 ### 🎛 外设配置代码 
 在我们的应用程序代码之前，需要通过以下步骤来配置外设：
 
-1️⃣ 获取设备外围设备的句柄：在嵌入式Rust编程中，作为单例设计模式的一部分，我们首先需要获取PAC层级的设备外围设备。这通过使用take()方法来完成。这里，我创建了一个名为dp的设备外围设备处理器，步骤如下：
+1️⃣ 获取外围设备的句柄：在嵌入式Rust编程中，作为单例设计模式的一部分，我们首先需要获取PAC层级的外围设备。这通过使用take()方法来完成。这里，我创建了一个名为dp的设备外围设备处理器，步骤如下：
 
 ```rust
 let dp = Peripherals::take().unwrap();
@@ -239,17 +239,18 @@ fn main() -> ! {
 
     // Application Loop
     loop {
-    for _i in 1..del_var {
-        // Check if button got pressed
-        if button.is_low().unwrap() {
-            // If button pressed decrease the delay value
-            del_var = del_var - 2_5000_u32;
-            // If updated delay value reaches zero then reset it back to starting value
-            if del_var < 2_5000 {
-                del_var = 10_0000_u32;
+        for _i in 1..del_var {
+            // Check if button got pressed
+            if button.is_low().unwrap() {
+                // If button pressed decrease the delay value
+                del_var = del_var - 2_5000_u32;
+                // If updated delay value reaches zero then reset it back to starting value
+                if del_var < 2_5000 {
+                    del_var = 10_0000_u32;
+                }
             }
         }
-    }
+    
         // Toggle LED
         led.toggle();
 

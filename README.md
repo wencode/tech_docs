@@ -15,9 +15,9 @@ Some technical documents, including original documents, translated documents, an
 ## 嵌入式编程
 * [翻译: 用ESP32和WS2812打造一个恐龙灯](embed/esp32-ws2812-dino-light.md)
 ## 翻译: ESP32 Embedded Rust at the HAL系列
-* [1. ESP32 Embedded Rust at the HAL：利用GPIO按钮控制LED闪烁](embed/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking.md)
+* [1.ESP32 Embedded Rust at the HAL：利用GPIO按钮控制LED闪烁](embed/esp32-embedded-rust-at-the-hal-gpio-button-controlled-blinking.md)
 * [2.ESP32 Embedded Rust at the HAL：通过定时器检测实现按钮控制闪烁功能](embed/esp32-embedded-rust-at-the-hal-button-controlled-blinking-by-timer-polling.md)
-* [3.# ESP32 Embedded Rust at the HAL：UART串行通信](embed/esp32-embedded-rust-at-the-hal-uart-serial-communication.md)
+* [3.ESP32 Embedded Rust at the HAL：UART串行通信](embed/esp32-embedded-rust-at-the-hal-uart-serial-communication.md)
 
 ## Parser
 * [翻译: 简洁而强大的 Pratt 解析](parser/simple-but-powerful-pratt-parsing.md)

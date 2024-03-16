@@ -9,6 +9,8 @@ Some technical documents, including original documents, translated documents, an
 ## Rust
 * [翻译: 异步Rust的发展](rust/why_async_rust.md)
 * [翻译: 使用Rust语言和GPU技术实现用户界面的120帧每秒渲染](rust/leveraging-rust-and-the-gpu-to-render-user-interfaces-at-120-fps.md)
+* [翻译: Rust中的类型导向元编程](rust/type-directed-metaprogramming-in-rust.md)
+* [翻译: async-await](rust/async-await.md)
 
 ## 嵌入式编程
 * [翻译: 用ESP32和WS2812打造一个恐龙灯](embed/esp32-ws2812-dino-light.md)
